@@ -1,0 +1,6 @@
+screen_width 1280;
+screen_height 720;
+fullscreen 0;
+master_vol 1;
+music_vol 1;
+sfx_vol 1;

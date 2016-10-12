@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AtlasSprite.h" />
+    <ClInclude Include="Barn.h" />
+    <ClInclude Include="Barracks.h" />
+    <ClInclude Include="BeamProjectile.h" />
+    <ClInclude Include="BulletProjectile.h" />
+    <ClInclude Include="Crate.h" />
+    <ClInclude Include="CreditsScreen.h" />
+    <ClInclude Include="ExplHandler.h" />
+    <ClInclude Include="Explosion.h" />
+    <ClInclude Include="HouseBlue.h" />
+    <ClInclude Include="HouseBrown.h" />
+    <ClInclude Include="LevelIO.h" />
+    <ClInclude Include="LevelSelectScreen.h" />
+    <ClInclude Include="LongCrate.h" />
+    <ClInclude Include="NPC.h" />
+    <ClInclude Include="NPCBasicCollision.h" />
+    <ClInclude Include="NPCCivilian.h" />
+    <ClInclude Include="NPCcow.h" />
+    <ClInclude Include="NPCHandler.h" />
+    <ClInclude Include="NPCHeavySoldier.h" />
+    <ClInclude Include="NPCSam.h" />
+    <ClInclude Include="NPCSamSite.h" />
+    <ClInclude Include="NPCSMG.h" />
+    <ClInclude Include="NPCSniper.h" />
+    <ClInclude Include="NPCSniperSoldier.h" />
+    <ClInclude Include="NPCSoldier.h" />
+    <ClInclude Include="NPCStinger.h" />
+    <ClInclude Include="NPCStingerSoldier.h" />
+    <ClInclude Include="NPCTank.h" />
+    <ClInclude Include="NPCTankBarrel.h" />
+    <ClInclude Include="NPCTurret.h" />
+    <ClInclude Include="NPCTurretGun.h" />
+    <ClInclude Include="Particle.h" />
+    <ClInclude Include="ParticleHandler.h" />
+    <ClInclude Include="Script.h" />
+    <ClInclude Include="ScriptHandler.h" />
+    <ClInclude Include="SoundHandler.h" />
+    <ClInclude Include="TallCrate.h" />
+    <ClInclude Include="TutBox.h" />
+    <ClInclude Include="TutorialSystem.h" />
+    <ClInclude Include="UFOCowtapult.h" />
+    <ClInclude Include="UFOMachineGun.h" />
+    <ClInclude Include="UFORocket.h" />
+    <ClInclude Include="UICreditsBox.h" />
+    <ClInclude Include="UIEquipBox.h" />
+    <ClInclude Include="EquipScreen.h" />
+    <ClInclude Include="Fence.h" />
+    <ClInclude Include="GameAtlas.h" />
+    <ClInclude Include="GameScreen.h" />
+    <ClInclude Include="GLColors.h" />
+    <ClInclude Include="Ground.h" />
+    <ClInclude Include="Handlers.h" />
+    <ClInclude Include="HayBale.h" />
+    <ClInclude Include="IntroLoadScreen.h" />
+    <ClInclude Include="Level.h" />
+    <ClInclude Include="Camera2D.h" />
+    <ClInclude Include="LevelEditor.h" />
+    <ClInclude Include="LevelProperties.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="MainScreen.h" />
+    <ClInclude Include="MissileProjectile.h" />
+    <ClInclude Include="NSMOProjectile.h" />
+    <ClInclude Include="PauseScreen.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerAtlas.h" />
+    <ClInclude Include="PlayerLaserGun.h" />
+    <ClInclude Include="PlayerShotgun.h" />
+    <ClInclude Include="PlayerSMG.h" />
+    <ClInclude Include="Projectile.h" />
+    <ClInclude Include="ProjectileHandler.h" />
+    <ClInclude Include="Rec.h" />
+    <ClInclude Include="Collision.h" />
+    <ClInclude Include="Cube.h" />
+    <ClInclude Include="FileHelper.h" />
+    <ClInclude Include="GLHandler.h" />
+    <ClInclude Include="KeyHandler.h" />
+    <ClInclude Include="MouseHandler.h" />
+    <ClInclude Include="SaveData.h" />
+    <ClInclude Include="SceneryHandler.h" />
+    <ClInclude Include="SceneryObject.h" />
+    <ClInclude Include="Settings.h" />
+    <ClInclude Include="SettingsScreen.h" />
+    <ClInclude Include="Sign.h" />
+    <ClInclude Include="Sky.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="StoreItem.h" />
+    <ClInclude Include="StoreItems.h" />
+    <ClInclude Include="StoreScreen.h" />
+    <ClInclude Include="TextRender.h" />
+    <ClInclude Include="TextureAtlas.h" />
+    <ClInclude Include="Tree.h" />
+    <ClInclude Include="UFO.h" />
+    <ClInclude Include="UIAtlas.h" />
+    <ClInclude Include="UIBox.h" />
+    <ClInclude Include="UIButton.h" />
+    <ClInclude Include="UICheckbox.h" />
+    <ClInclude Include="UIComboBox.h" />
+    <ClInclude Include="UILabel.h" />
+    <ClInclude Include="UILevelButton.h" />
+    <ClInclude Include="UIObject.h" />
+    <ClInclude Include="UIScreen.h" />
+    <ClInclude Include="UIScrollbar.h" />
+    <ClInclude Include="UIStoreItemBox.h" />
+    <ClInclude Include="UITerminal.h" />
+    <ClInclude Include="UITransitionObject.h" />
+    <ClInclude Include="UIValueSlider.h" />
+    <ClInclude Include="VertCordGenerator.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="Weapon.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AtlasSprite.cpp" />
+    <ClCompile Include="Barn.cpp" />
+    <ClCompile Include="Barracks.cpp" />
+    <ClCompile Include="BeamProjectile.cpp" />
+    <ClCompile Include="BulletProjectile.cpp" />
+    <ClCompile Include="Crate.cpp" />
+    <ClCompile Include="CreditsScreen.cpp" />
+    <ClCompile Include="ExplHandler.cpp" />
+    <ClCompile Include="Explosion.cpp" />
+    <ClCompile Include="HouseBlue.cpp" />
+    <ClCompile Include="HouseBrown.cpp" />
+    <ClCompile Include="LevelIO.cpp" />
+    <ClCompile Include="LevelSelectScreen.cpp" />
+    <ClCompile Include="LongCrate.cpp" />
+    <ClCompile Include="NPC.cpp" />
+    <ClCompile Include="NPCBasicCollision.cpp" />
+    <ClCompile Include="NPCCivilian.cpp" />
+    <ClCompile Include="NPCcow.cpp" />
+    <ClCompile Include="NPCHandler.cpp" />
+    <ClCompile Include="NPCHeavySoldier.cpp" />
+    <ClCompile Include="NPCSam.cpp" />
+    <ClCompile Include="NPCSamSite.cpp" />
+    <ClCompile Include="NPCSMG.cpp" />
+    <ClCompile Include="NPCSniper.cpp" />
+    <ClCompile Include="NPCSniperSoldier.cpp" />
+    <ClCompile Include="NPCSoldier.cpp" />
+    <ClCompile Include="NPCStinger.cpp" />
+    <ClCompile Include="NPCStingerSoldier.cpp" />
+    <ClCompile Include="NPCTank.cpp" />
+    <ClCompile Include="NPCTankBarrel.cpp" />
+    <ClCompile Include="NPCTurret.cpp" />
+    <ClCompile Include="NPCTurretGun.cpp" />
+    <ClCompile Include="Particle.cpp" />
+    <ClCompile Include="ParticleHandler.cpp" />
+    <ClCompile Include="Script.cpp" />
+    <ClCompile Include="ScriptHandler.cpp" />
+    <ClCompile Include="SoundHandler.cpp" />
+    <ClCompile Include="TallCrate.cpp" />
+    <ClCompile Include="TutBox.cpp" />
+    <ClCompile Include="TutorialSystem.cpp" />
+    <ClCompile Include="UFOCowtapult.cpp" />
+    <ClCompile Include="UFOMachineGun.cpp" />
+    <ClCompile Include="UFORocket.cpp" />
+    <ClCompile Include="UICreditsBox.cpp" />
+    <ClCompile Include="UIEquipBox.cpp" />
+    <ClCompile Include="EquipScreen.cpp" />
+    <ClCompile Include="Fence.cpp" />
+    <ClCompile Include="GameAtlas.cpp" />
+    <ClCompile Include="GameScreen.cpp" />
+    <ClCompile Include="GLColors.cpp" />
+    <ClCompile Include="Ground.cpp" />
+    <ClCompile Include="Handlers.cpp" />
+    <ClCompile Include="HayBale.cpp" />
+    <ClCompile Include="IntroLoadScreen.cpp" />
+    <ClCompile Include="Level.cpp" />
+    <ClCompile Include="Camera2D.cpp" />
+    <ClCompile Include="LevelEditor.cpp" />
+    <ClCompile Include="LevelProperties.cpp" />
+    <ClCompile Include="MainScreen.cpp" />
+    <ClCompile Include="MissileProjectile.cpp" />
+    <ClCompile Include="NSMOProjectile.cpp" />
+    <ClCompile Include="PauseScreen.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerAtlas.cpp" />
+    <ClCompile Include="PlayerLaserGun.cpp" />
+    <ClCompile Include="PlayerShotgun.cpp" />
+    <ClCompile Include="PlayerSMG.cpp" />
+    <ClCompile Include="Projectile.cpp" />
+    <ClCompile Include="ProjectileHandler.cpp" />
+    <ClCompile Include="Rec.cpp" />
+    <ClCompile Include="Collision.cpp" />
+    <ClCompile Include="Cube.cpp" />
+    <ClCompile Include="FileHelper.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="GLHandler.cpp" />
+    <ClCompile Include="KeyHandler.cpp" />
+    <ClCompile Include="MouseHandler.cpp" />
+    <ClCompile Include="SaveData.cpp" />
+    <ClCompile Include="SceneryHandler.cpp" />
+    <ClCompile Include="SceneryObject.cpp" />
+    <ClCompile Include="Settings.cpp" />
+    <ClCompile Include="SettingsScreen.cpp" />
+    <ClCompile Include="Sign.cpp" />
+    <ClCompile Include="Sky.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="StoreItem.cpp" />
+    <ClCompile Include="StoreItems.cpp" />
+    <ClCompile Include="StoreScreen.cpp" />
+    <ClCompile Include="TextRender.cpp" />
+    <ClCompile Include="TextureAtlas.cpp" />
+    <ClCompile Include="Tree.cpp" />
+    <ClCompile Include="UFO.cpp" />
+    <ClCompile Include="UIAtlas.cpp" />
+    <ClCompile Include="UIBox.cpp" />
+    <ClCompile Include="UIButton.cpp" />
+    <ClCompile Include="UICheckbox.cpp" />
+    <ClCompile Include="UIComboBox.cpp" />
+    <ClCompile Include="UILabel.cpp" />
+    <ClCompile Include="UILevelButton.cpp" />
+    <ClCompile Include="UIObject.cpp" />
+    <ClCompile Include="UIScreen.cpp" />
+    <ClCompile Include="UIScrollbar.cpp" />
+    <ClCompile Include="UIStoreItemBox.cpp" />
+    <ClCompile Include="UITerminal.cpp" />
+    <ClCompile Include="UITransitionObject.cpp" />
+    <ClCompile Include="UIValueSlider.cpp" />
+    <ClCompile Include="VertCordGenerator.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="Weapon.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{55A1C19C-B44B-4905-8CB9-3662761445ED}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>CS426_Project</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>
+    </LinkIncremental>
+    <TargetName>UFO Attack</TargetName>
+    <OutDir>$(SolutionDir)\build\</OutDir>
+    <IntDir>build\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>
+    </LinkIncremental>
+    <TargetName>UFO Attack</TargetName>
+    <OutDir>$(SolutionDir)\build\</OutDir>
+    <IntDir>build\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <AdditionalIncludeDirectories>include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>lib\glew32.lib;lib\SOIL\SOIL.lib;lib\SDL2.lib;lib\SDL2main.lib;opengl32.lib;lib\SDL2_mixer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <AdditionalIncludeDirectories>include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>lib\glew32.lib;lib\SOIL\SOIL.lib;lib\SDL2.lib;lib\SDL2main.lib;opengl32.lib;lib\SDL2_mixer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
